@@ -1,0 +1,9 @@
+*.log
+.idea/*
+node_modules/*
+videos/*.mp4
+videos/*.webm
+gifs/*.gif
+gifs/*.gif
+config/*
+giflossy/*

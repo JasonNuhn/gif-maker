@@ -1,0 +1,34 @@
+{
+  "name": "gif-maker",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www",
+    "start-dev": "nodemon ./bin/www",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "npm run test && npm run deploy:deploy",
+    "deploy:deploy": "cap production deploy"
+  },
+  "dependencies": {
+    "aws-sdk": "~2.4.13",
+    "body-parser": "~1.15.1",
+    "cloudinary": "~1.4.1",
+    "cookie-parser": "~1.4.3",
+    "cors": "^2.7.1",
+    "debug": "~2.2.0",
+    "ejs": "~2.4.1",
+    "express": "~4.13.4",
+    "morgan": "~1.7.0",
+    "request": "~2.74.0",
+    "serve-favicon": "~2.3.0",
+    "tmp": "0.0.28"
+  },
+  "devDependencies": {
+    "eslint": "3.4.0",
+    "eslint-config-airbnb": "10.0.1",
+    "eslint-plugin-import": "1.14.0",
+    "eslint-plugin-jsx-a11y": "2.2.1",
+    "eslint-plugin-react": "6.2.0",
+    "nodemon": "1.10.2"
+  }
+}
